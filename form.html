@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>contact me</title>
+    <style>
+        body{
+            background-image: url(photo/background.png);
+        }
+    .button{
+        display: inline-block;
+        padding: 15px 25px;
+        color:white;
+        background-color: teal;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 5px #999;
+
+    }
+    .button:hover{
+        background-color: rgb(6, 95, 95);
+    }
+    .button:active{
+        background-color: rgb(6, 95, 95 );
+        box-shadow: 0 2px #999;
+        transform: translateY(3px);
+    }
+    .card{
+        border-radius: 15px;
+        width: 450px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2);
+        padding: 10px;
+    }
+     
+    
+    </style>
+</head>
+<body>
+
+    <center>
+        
+        <div class="card">
+    <h1 style="color: teal;">my contacte details</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td>my number:</td>
+                <td>0794990784</td>
+            </tr>
+            <tr>
+                <td>my gmail:</td>
+                <td>nidal.ayadi2@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="mailto:nidal.ayadi2@gmail.com" method="post">
+        <label>your name:</label>
+    <input type="text" name="my name is" value=""><br>
+    <label>your email:</label>
+    <input type="email" name="my email is" value=""><br>
+    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+    <input type="submit" class="button">
+
+    </form>
+   
+    </div>
+    </center>
+</body>
+</html>
